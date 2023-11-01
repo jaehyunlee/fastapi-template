@@ -16,3 +16,13 @@ $ poetry add fastapi
 # Run if Poetry shell is activated
 $ uvicorn main:app
 ```
+
+## Build and Deploy
+```sh
+# Docker Build
+$ make build
+# Docker compose up
+$ make c-up
+# Docker compose down
+$ make c-down
+```
